@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: white;
+    color: #333;
+  }
+  
+  header, footer {
+    background: linear-gradient(90deg, #ff5f6d, #ffc371);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  main {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+  
+  #canvas-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin-bottom: 2rem;
+  }
+  
+  #descripcion, #integrantes {
+    margin-bottom: 2rem;
+  }
+  
+  #integrantes ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+  }
+  
+  #integrantes li {
+    flex: 1 1 200px;
+    text-align: center;
+  }
+  
+  #integrantes img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: #ccc;
+  }
+  
+  footer p {
+    margin: 0.3rem 0;
+  }
+  
